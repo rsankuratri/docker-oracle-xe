@@ -1,9 +1,9 @@
 FROM oraclelinux:7-slim
-LABEL MAINTAINER="Adrian Png <adrian.png@fuzziebrain.com>"
+LABEL MAINTAINER="Raj Sankuratri <rsankuratri@gmail.com>"
 
 ENV \
   # The only environment variable that should be changed!
-  ORACLE_PASSWORD=Oracle18 \
+  ORACLE_PASSWORD=P@ssw0rd \
   EM_GLOBAL_ACCESS_YN=Y \
   # DO NOT CHANGE 
   ORACLE_DOCKER_INSTALL=true \
